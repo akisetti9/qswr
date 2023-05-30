@@ -1,0 +1,161 @@
+.outer-box {
+width: 750px;
+margin: 12px;
+border: 2px solid #000000;
+background-color: #ffffff;
+color: #000000;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+.header {
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border-bottom: 2px solid #000000;
+}
+
+h4 {
+margin: 0px;
+margin-top: 3px;
+margin-bottom: 8px;
+}
+
+.student-master {
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.sm-row {
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+
+.sm-cell1 {
+width: 20%;
+margin: 4px;
+font-size: 12px;
+font-weight: bold;
+}
+.sm-cell2 {
+width: 20%;
+margin: 4px;
+font-size: 12px;
+font-weight: bold;
+}
+.sm-cell3 {
+width: 20%;
+margin: 4px;
+font-size: 12px;
+font-weight: bold;
+}
+.sm-cell4 {
+width: 40%;
+margin: 4px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.table {
+width: 100%;
+border: 2px solid black;
+border-left: none;
+border-right: none;
+border-collapse: collapse;
+padding: 0px;
+font-size: 12px;
+}
+
+.hr {
+width: 100%;
+border-bottom: 2px solid black;
+border-collapse: collapse;
+}
+
+.sub {
+width: 12.5%;
+border: none;
+border-right: 2px solid black;
+border-collapse: collapse;
+margin: 0px;
+}
+
+.terms {
+width: 31.25%;
+border: 2px solid black;
+border-collapse: collapse;
+}
+
+.full {
+    width: 25%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr,th,td{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.result-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.result {
+    width: 30%;
+}
+
+.gpa {
+    width: 40%;
+}
+
+.grade {
+    width: 30%;
+}
+
+.signature-legend {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.legend-1 {
+    width: 25%;
+    border-right: 2px solid black;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.legend {
+    width: 25%;
+    margin: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.signature-box {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
